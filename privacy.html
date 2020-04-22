@@ -37,15 +37,44 @@
     <h1 class="headers">Privacy</h1>
     <div class="row">
         <div class="col-sm-4">
-            <p class="descriptions">It is possible to collect this information for further use. It is also possible that permissions have been allowed for the data to be used by third parties. <br>From here it can be considered how a presence has been created online about a person without their knowledge. If you are sharing your own information that’s on you, but what about your child? You are incharge of their online privacy, but what happens when they begin to use social media themselves.</p>
-            <p class="descriptions"></p>
+            <p class="descriptions">It is possible to collect this information for further use. It is also possible that permissions have been allowed for the data to be used by third parties. <br> From here it can be considered how a presence has been created online about a person without their knowledge. If you are sharing your own information that’s on you, but what about your child? You are incharge of their online privacy, but what happens when they begin to use social media themselves. <br> Sharing about your children online is completely okay as long as you are aware of general security issues, and practice good security.</p>
         </div>
         <div class="col-sm-4">
-            
+            <ul class="descriptions bpoints">
+                <li>When you share on social media, be aware of how sharing your information could effect your privacy, or subsequently your childs future privacy.</li>
+                <li>It's alright to share information about yourself, just get in the habit of good security practices. Eg. your passwords shouldn't relate to something that can be found on your social media pages.</li>
+                <li>If you're worried about having complex passwords that aren't related to something in your life you'll remember, look into password managers.</li>
+            </ul>
+            <button type="button" class="collapsible">Did You Know?</button>
+            <div class="content">
+                <p>"Two thirds of passwords are designed around one's personal characteristics, with most of the remainder relating to relatives, friends or lovers. Proper names and birthdays are the primary information used in constructing passwords, accounting for about half of all password constructions."</p> 
+                <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/acp.1014?casa_token=gYBNGsByTdsAAAAA%3A3tum7HlPnitxifvYaXIvyNEmANdgPaGB4vqGRa6GAsMJsGsT-MPGzE4MjK4Vs0kO_C_Swkmy-x3qrj3W">Read more here.</a>
+            </div>
+            <ul class="descriptions bpoints">
+                <li>It's likely that children will use names of their favourite artists, pets, or personal details for their security.</li>
+                <li>Younger children may not be mindful of wanting secure accounts and strong passwords.</li>
+            </ul>
         </div>
         <div class="col-sm-4">
             
         </div>
     </div>
+    
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+    </script>
 </body>
 </html>

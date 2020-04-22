@@ -34,6 +34,11 @@ li a:hover {
 
 .descriptions{
     padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.bpoints{
+    list-style-type: circle;
 }
 
 .links{
